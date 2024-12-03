@@ -1,0 +1,36 @@
+# Compile of vote1.vt was successful.
+vsim -gui work.vote1_vlg_tst
+# vsim -gui work.vote1_vlg_tst 
+# Start time: 19:57:39 on Dec 02,2024
+# Loading work.vote1_vlg_tst
+# ** Error: (vsim-3033) Instantiation of 'vote1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /vote1_vlg_tst File: C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/simulation/questa/vote1.vt Line: 41
+#         Searched libraries:
+#             C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/simulation/questa/work
+# Error loading design
+# End time: 19:57:40 on Dec 02,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+# Compile of vote1.vt was successful.
+# Compile of vote1.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.vote1_vlg_tst
+# vsim -gui work.vote1_vlg_tst 
+# Start time: 19:59:58 on Dec 02,2024
+# Loading work.vote1_vlg_tst
+# Loading work.vote1
+add wave sim:/vote1_vlg_tst/*
+run -all
+# Running testbench
+#                    0Y value = 0
+# 
+#                 3000Y value = 1
+# 
+#                 4000Y value = 0
+# 
+#                 5000Y value = 1
+# 
+# ** Note: $stop    : C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/simulation/questa/vote1.vt(65)
+#    Time: 8 ns  Iteration: 0  Instance: /vote1_vlg_tst
+# Break in Module vote1_vlg_tst at C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/simulation/questa/vote1.vt line 65
+# End time: 20:03:15 on Dec 02,2024, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 3

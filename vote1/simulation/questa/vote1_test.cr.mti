@@ -1,0 +1,15 @@
+C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/simulation/questa/vote1.vt {1 {vlog -work work -stats=none C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/simulation/questa/vote1.vt
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vote1_vlg_tst
+
+Top level modules:
+	vote1_vlg_tst
+
+} {} {}} C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/vote1.v {1 {vlog -work work -stats=none C:/Users/y1499/OneDrive/Desktop/maj-vote/vote1/vote1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vote1
+
+Top level modules:
+	vote1
+
+} {} {}}
